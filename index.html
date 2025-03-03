@@ -4,7 +4,7 @@
     <title>About Me</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Times new Roman, sans-serif;
             background-color: #f4f4f4;
             line-height: 1.6;
         }
@@ -80,6 +80,31 @@
             <p>I was an electoral judge for the previous presidential election </p>
         </section>
     </div>
-	<p>Last updated 2/19/2025</p>
+	<p>Last updated 3/2/2025</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Text Color on Click</title>
+    <style>
+        .clicked {
+            color: purple; /* Change to any color you like */
+        }
+    </style>
+</head>
+<body>
+
+<p id="text" onclick="changeColor()">Click me to change color!</p>
+
+<script>
+    function changeColor() {
+        document.getElementById("text").classList.toggle("clicked");
+    }
+</script>
+
 </body>
 </html>
